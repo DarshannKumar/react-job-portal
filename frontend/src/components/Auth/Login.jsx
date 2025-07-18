@@ -36,10 +36,10 @@ const Login = () => {
       toast.error(error.response.data.message);
     }
   };
-
+  setIsAuthorized(true);
   if(isAuthorized){
-    return <Navigate to={'/'}/>
-  }
+    return <Navigate to="/"/>
+  } 
 
   return (
     <>

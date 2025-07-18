@@ -14,7 +14,7 @@ config({ path: "./config/config.env" });
 
 app.use(
   cors({
-    origin: "https://darshan-jobportal.netlify.app",
+    origin: "darshan-jobp.netlify.app",
     method: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
   })
